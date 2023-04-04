@@ -1,0 +1,14 @@
+{
+  "name": "preentrega2-testa",
+  "version": "1.0.0",
+  "description": "FIGMA:  https://www.figma.com/file/nnSLYDfEHeDXn2uCppqria?node-id=0:1&comments-enabled=1&viewer=1&locale=en",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
