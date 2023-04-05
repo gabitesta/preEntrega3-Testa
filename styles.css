@@ -1613,4 +1613,39 @@ a {
   color: #FFFFFF;
 }
 
+@keyframes mi-animacion {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.animacion2seg, .elementoAnimado2seg {
+  animation-name: mi-animacion;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+}
+
+.animacion3seg, .elementoAnimado3seg {
+  animation-name: mi-animacion;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes mover-izquierda-derecha {
+  from {
+    left: 0;
+  }
+  to {
+    left: 45%;
+  }
+}
+.elementoIzqADer, .elementoAnimadoIzqDer {
+  position: relative;
+  animation-name: mover-izquierda-derecha;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+}
+
 /*# sourceMappingURL=styles.css.map */
